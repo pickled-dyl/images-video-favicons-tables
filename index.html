@@ -135,54 +135,51 @@
             <p>In HTML, tables are used for tabular data. Think of data similar to a schedule or what you might find easier to read in a spreadsheet format. Tables can cause issues on smaller screens, as they aren't responsive, so consider that if you add them to a page. If they will be small enough to fit on the screen, even with their data, you should be fine.</p>
             <table>
                 <!-- TO DO: Complete the code below to create a caption for this table -->
-                <table>
-                    <caption>Hours of Operation</caption>
+                <caption>Hours of Operation</caption>
 
-                    <thead>
-                        <tr>
-                            <th>Day</th>
-                            <th>Hours</th>
-                        </tr>
-                    </thead>
-
+                <thead>
                     <tr>
-                        <td>Monday</td>
-                        <td>Noon - 8:00PM</td>
+                        <th>Day</th>
+                        <th>Hours</th>
                     </tr>
+                </thead>
 
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>10:00AM - 7:00PM</td>
-                    </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Noon - 8:00PM</td>
+                </tr>
 
-                    <tr>
-                        <!-- TO DO: Complete the code below to create a cell that will span all columns -->
-                        <!-- Wednesday - <span class="bold">Closed</span> -->
-                        <td>Wednesday</td>
-                        <td><span class="bold">Closed</span></td>
-                    </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>10:00AM - 7:00PM</td>
+                </tr>
 
-                    <tr>
-                        <td>Thursday</td>
-                        <td>10:00AM - 7:00PM</td>
-                    </tr>
+                <tr>
+                    <!-- TO DO: Complete the code below to create a cell that will span all columns -->
+                    <td colspan="2">Wednesday - <span class="bold">Closed</span></td>
+                </tr>
 
-                    <tr>
-                        <td>Friday</td>
-                        <td>Noon - Midnight</td>
-                    </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>10:00AM - 7:00PM</td>
+                </tr>
 
-                    <tr>
-                        <td>Saturday</td>
-                        <!-- TO DO: Complete the code below to create a cell that will span two rows -->
-                        <td rowspan="2"><span>Closed</span> By Appointment Only</td>
-                    </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Noon - Midnight</td>
+                </tr>
 
-                    <tr>
-                        <!-- TO DO: Complete the code below to create a cell containing that text -->
-                        <!-- Sunday -->
-                    </tr>
-                </table>
+                <tr>
+                    <td>Saturday</td>
+                    <!-- TO DO: Complete the code below to create a cell that will span two rows -->
+                    <td rowspan="2"><span>Closed</span> By Appointment Only</td>
+                </tr>
+
+                <tr>
+                    <!-- TO DO: Complete the code below to create a cell containing that text -->
+                    <td>Sunday</td>
+                </tr>
+            </table>
         </section>
 
     </main>
